@@ -1,12 +1,12 @@
 {
-  "name": "facetec-react-js-sample",
-  "version": "9.2.0",
-  "description": "FaceTec React-JS Sample",
+  "name": "hackathon-factor-modo",
+  "version": "1.0.0",
+  "description": "hackathon-factor-modo",
   "main": "BasicComponent.js",
   "scripts": {
     "start": "webpack --progress & live-server --host=localhost --port=4200"
   },
-  "author": "FaceTec, Inc.",
+  "author": "Mati Fito",
   "dependencies": {
     "@babel/core": "^7.4.0",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
