@@ -3,7 +3,7 @@ export var Config = (function () {
     // REQUIRED
     // Available at https://dev.facetec.com/#/account
     // NOTE: This field is auto-populated by the FaceTec SDK Configuration Wizard.
-    var DeviceKeyIdentifier = "d6mTFKH4ailAB3DbIzbJtNMvW33CnQQ0";
+    var DeviceKeyIdentifier = "dNmYlftTMd6iV5diRj3wxRbibuXNG7rX";
 
     // -------------------------------------
     // REQUIRED
