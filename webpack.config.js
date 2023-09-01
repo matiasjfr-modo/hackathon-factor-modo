@@ -3,7 +3,6 @@ const path = require("path");
 module.exports = {
   devtool: "source-map",
   mode: "development",
-  watch: true,
   entry: ["babel-polyfill", "./src/BasicComponent.js"],
   output: {
     libraryTarget: "this",

@@ -4,8 +4,8 @@
   "description": "hackathon-factor-modo",
   "main": "BasicComponent.js",
   "scripts": {
-    "start": "webpack --progress & live-server --host=localhost --port=4200",
-    "build": "webpack --mode=production --progress --watch=false --verbose"
+    "start": "webpack --progress & live-server --watch --host=localhost --port=4200",
+    "build": "webpack --mode=production --progress --verbose"
   },
   "author": "Mati Fito",
   "dependencies": {
