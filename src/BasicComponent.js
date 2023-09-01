@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import { SampleApp } from "./sample-app/react-js-sample.js";
-
 const BasicComponent = () => {
   const [stepPagar, setStepPagar] = useState(0);
 
@@ -10,7 +9,7 @@ const BasicComponent = () => {
       {stepPagar !== 0 && (
         <img
           className="wrapping-steps"
-          src={`../images/step${stepPagar}.png`}
+          src={`./images/step${stepPagar}.png`}
           onClick={() => {
             if (stepPagar === 3) {
               setStepPagar(0);
@@ -22,7 +21,7 @@ const BasicComponent = () => {
         />
       )}
       <div className="wrapping-box-container">
-        <img id="facetec-logo" src="../images/factormodo.png" />
+        <img id="facetec-logo" src="./images/factormodo.png" />
         <p id="status">Cargando...</p>
         <div className="wrapping-box-background">
           <div id="controls" className="controls">

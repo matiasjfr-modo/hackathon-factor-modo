@@ -1,15 +1,15 @@
+const path = require("path");
+
 module.exports = {
   devtool: "source-map",
   mode: "development",
   watch: true,
-  entry: [
-    "babel-polyfill",
-    "./src/BasicComponent.js"
-  ],
+  entry: ["babel-polyfill", "./src/BasicComponent.js"],
   output: {
     libraryTarget: "this",
     filename: "./bundle.js",
-    path: __dirname + "/build"
+    path: path.resolve(__dirname, "build"),
+    publicPath: "/",
   },
   module: {
     rules: [
@@ -21,13 +21,16 @@ module.exports = {
           presets: [
             "@babel/preset-env",
             "@babel/preset-react",
-            {"plugins": ["@babel/plugin-proposal-class-properties"]}
-          ]
-        }
-      }
-    ]
+            { plugins: ["@babel/plugin-proposal-class-properties"] },
+          ],
+        },
+      },
+    ],
+  },
+  optimization: {
+    minimize: false,
   },
   resolve: {
-    extensions: [".webpack.js", ".js"]
-  }
+    extensions: [".webpack.js", ".js", "ts"]
+  },
 };

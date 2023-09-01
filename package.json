@@ -5,7 +5,7 @@
   "main": "BasicComponent.js",
   "scripts": {
     "start": "webpack --progress & live-server --host=localhost --port=4200",
-    "build": "webpack"
+    "build": "webpack --mode=production --progress --watch=false --verbose"
   },
   "author": "Mati Fito",
   "dependencies": {

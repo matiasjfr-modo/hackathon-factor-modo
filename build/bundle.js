@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -39739,7 +39739,7 @@ var BasicComponent = function BasicComponent() {
     setStepPagar = _useState2[1];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, stepPagar !== 0 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "wrapping-steps",
-    src: "../images/step".concat(stepPagar, ".png"),
+    src: "./images/step".concat(stepPagar, ".png"),
     onClick: function onClick() {
       if (stepPagar === 3) {
         setStepPagar(0);
@@ -39752,7 +39752,7 @@ var BasicComponent = function BasicComponent() {
     className: "wrapping-box-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     id: "facetec-logo",
-    src: "../images/factormodo.png"
+    src: "./images/factormodo.png"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     id: "status"
   }, "Cargando..."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
